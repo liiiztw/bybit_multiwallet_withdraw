@@ -18,6 +18,7 @@ Go to okx.com and get the api key, set multi-wallet addresses to whitelist.
 ### config.json
 ```
 {
+    "accountType": "SPOT", or "FUND"
     "token": "BNB",
     "network": "BSC",
     "amount": 0.015,
@@ -28,8 +29,8 @@ Go to okx.com and get the api key, set multi-wallet addresses to whitelist.
 }
 ```
 1. edit token which you wana withdraw
-2. run getTokenSetting.exe to check "chain" and "withdraw_min"
-3. edit "network" and "amount"(>withdraw_min)
+2. run getTokenSetting.exe to check "chain" and "withdrawMin"
+3. edit "network" and "amount"(>withdrawMin)
 4. random_amount true or false
 
 ### wallets.txt
@@ -42,12 +43,13 @@ Go to okx.com and get the api key, set multi-wallet addresses to whitelist.
 
 ## contact info
 
-[tlelgram](https://t.me/liiiztw)
+[telegram](https://t.me/liiiztw)
 [twitter](https://twitter.com/game_liiiz)
 
 ## Version History
-
-* 1.0
+* v2
+    * support choose FUND or SPOT
+* v1
     * Initial Release
 
 ## License
