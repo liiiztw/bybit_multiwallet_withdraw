@@ -13,7 +13,7 @@ metamask wallet
 bybit 多地址提幣功能
 
 ## Getting Started
-Go to okx.com and get the api key, set multi-wallet addresses to whitelist.
+Go to www.bybit.com and get the api key, set multi-wallet addresses to whitelist.
 
 ### config.json
 ```
